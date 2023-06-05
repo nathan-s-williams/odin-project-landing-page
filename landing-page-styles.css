@@ -8,6 +8,22 @@
 .hero {
     background-color: #1F2937;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero > div {
+    width: 1000px;
+    flex: 1;
+}
+
+.hero-top {
+    display: flex;
+}
+
+.hero-top-logo {
+    flex: 2;
 }
 
 .hero-main-text {
@@ -19,6 +35,12 @@
 .hero-secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+    flex: 1 1 100px;
+}
+
+.hero-secondary-text > div {
+    flex: 1;
 }
 
 .hero-header-logo-text {
