@@ -59,7 +59,7 @@
     color: #f9faf8;
 }
 
-.button-style {
+.hero-button-style {
     width: 100px;
     height: 30px;
     font-size: 15px;
@@ -136,4 +136,46 @@
     width: 40%;
     text-align: right;
     font-weight: bold;
+}
+
+.call-to-action {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-banner {
+    width: 60%;
+    height: 100px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+
+.call-to-action-button-style {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.call-to-action-banner-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-style {
+    height: 100px;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
